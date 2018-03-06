@@ -1,5 +1,5 @@
 //
-//  ISSPass.swift
+//  ISSPassResponse.swift
 //  JPMCCodeChallenge
 //
 //  Created by MANOJ on 06/03/18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct ISSPass: Decodable {
-    var duration: Int?
-    var risetime: Int?
+struct ISSPassResponse: Decodable {
+    var message: String?
+    var response: [ISSPass]?
 }

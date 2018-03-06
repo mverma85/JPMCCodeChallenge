@@ -11,7 +11,9 @@ import CoreLocation
 
 extension ISSViewController: CLLocationManagerDelegate {
 
-    // to check and get location permission
+    /**
+     to check and get location permission
+     */
     func checkAndRequestPermission() {
         if CLLocationManager.locationServicesEnabled() {
             switch CLLocationManager.authorizationStatus() {
@@ -27,7 +29,9 @@ extension ISSViewController: CLLocationManagerDelegate {
         }
     }
     
-    // to start location manager
+    /**
+     to start location manager
+     */
     func startUpdatingLocationManager() {
         locationManager.requestAlwaysAuthorization()
         locationManager.requestWhenInUseAuthorization()
@@ -39,14 +43,18 @@ extension ISSViewController: CLLocationManagerDelegate {
         }
     }
 
-    // delegate callback if location updated
+    /**
+     delegate callback if location updated
+     */
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let locValue = manager.location?.coordinate {
             getData(lat: "\(locValue.latitude)", lon: "\(locValue.longitude)")
         }
     }
     
-    // delegate callback if location manager permission changed
+    /**
+     delegate callback if location manager permission changed
+     */
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if CLLocationManager.locationServicesEnabled() {
             switch CLLocationManager.authorizationStatus() {

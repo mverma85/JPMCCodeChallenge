@@ -9,6 +9,10 @@
 import Foundation
 
 class Utilities {
+    /**
+     format date to readable date format
+     - parameter date: date to be formatted
+     */
     class func stringFromDate(_ date: Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd-MMM-yyyy HH:mm:ss"

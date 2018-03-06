@@ -10,7 +10,11 @@ import Foundation
 
 extension ISSViewController {
     
-    // method to fetch ISS Pass for a perticular location
+    /**
+     method to fetch ISS Pass for a perticular location
+     - parameter lat: latitude of desired location
+     - parameter lon: longitude of desired location
+     */
     func getData(lat: String, lon: String) {
         BusinessLayerManager.sharedManager.getISSPass(lat, lon: lon, handler: { (inner) in
             do {

@@ -14,4 +14,4 @@ let okString = NSLocalizedString("okString", value:"OK", comment: "OK")
 let durationString = NSLocalizedString("durationString", value:"Duration", comment: "Duration")
 let secondsString = NSLocalizedString("secondsString", value:"seconds", comment: "seconds")
 let riseTimeString = NSLocalizedString("riseTimeString", value:"Rise Time", comment: "Rise Time")
-
+let noInternetString = NSLocalizedString("noInternetString", value:"Not Connected To Internet.", comment: "Not Connected To Internet.")

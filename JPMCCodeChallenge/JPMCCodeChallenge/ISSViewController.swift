@@ -34,7 +34,10 @@ class ISSViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // this will display error alert
+    /**
+     this will display error alert
+     - parameter error: error string to be displayed
+     */
     func showError(_ error: String) {
         let alertController = UIAlertController(title: errorString, message: error, preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: okString, style: UIAlertActionStyle.cancel, handler: nil))

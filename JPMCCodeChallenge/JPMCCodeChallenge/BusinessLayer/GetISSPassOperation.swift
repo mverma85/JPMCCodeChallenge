@@ -13,7 +13,8 @@ class GetISSPassOperation: ISSOperation {
     var lon: String
 
     fileprivate let handler: ((_ inner: () throws -> ([ISSPass]?)) -> Void)
-    
+    fileprivate var dataTask: URLSessionDataTask?
+
     init(lat: String, lon: String, handler: @escaping (_ inner: () throws -> ([ISSPass]?)) -> Void) {
         self.lat = lat
         self.lon = lon
@@ -22,14 +23,15 @@ class GetISSPassOperation: ISSOperation {
         self.name = "GetISSPassOperation"
     }
     
-    // download json and parse using swift JSONDecoder
+    /**
+     download json and parse using swift JSONDecoder
+     */
     override func execute() {
-        var dataTask: URLSessionDataTask?
         if var urlComponents = URLComponents(string: "http://api.open-notify.org/iss-pass.json") {
             urlComponents.query = "lat=\(lat)&lon=\(lon)"
             guard let url = urlComponents.url else { return }
             dataTask = URLSession(configuration: .default).dataTask(with: url) { data, response, error in
-                defer { dataTask = nil }
+                defer { self.dataTask = nil }
                 if let error = error {
                     self.handler({ throw error })
                 } else if let data = data,
@@ -42,11 +44,21 @@ class GetISSPassOperation: ISSOperation {
         }
     }
     
-    // parse json using JSONDecoder
+    /**
+     cancel task if operation canceled
+     */
+    override func cancel() {
+        dataTask?.cancel()
+    }
+
+    /**
+     parse json using JSONDecoder
+     - parameter data: Data to be parsed
+     */
     func parseJSON(_ data: Data) {
         do {
             let decoder = JSONDecoder()
-            let decodedData: ISSPassResponse = try decoder.decode(ISSPassResponse.self, from: data)
+            let decodedData = try decoder.decode(ISSPassResponse.self, from: data)
             let issPass = decodedData.response
             self.handler({ issPass })
         } catch let decoderError {

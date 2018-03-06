@@ -18,7 +18,10 @@ class ISSTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
     
-    // to configure cell with given ISS pass
+    /**
+     to configure cell with given ISS pass
+     - parameter issPass: ISSPass model object to be displayed
+     */
     func configure(_ issPass: ISSPass) {
         durationLabel.text = "\(durationString): \(issPass.duration ?? 0) \(secondsString)"
         if let risetime = issPass.risetime {
