@@ -26,7 +26,7 @@ class ISSViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        setupLocationManager()
+        checkAndRequestPermission()
     }
 
     override func didReceiveMemoryWarning() {

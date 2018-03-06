@@ -12,7 +12,7 @@ import CoreLocation
 extension ISSViewController: CLLocationManagerDelegate {
 
     // to check and get location permission
-    func setupLocationManager() {
+    func checkAndRequestPermission() {
         if CLLocationManager.locationServicesEnabled() {
             switch CLLocationManager.authorizationStatus() {
             case .notDetermined:
@@ -20,7 +20,7 @@ extension ISSViewController: CLLocationManagerDelegate {
             case .restricted, .denied:
                 self.showError(locationServicesDisabled)
             case .authorizedAlways, .authorizedWhenInUse:
-                fetchLocationManager()
+                startUpdatingLocationManager()
             }
         } else {
             self.showError(locationServicesDisabled)
@@ -28,7 +28,7 @@ extension ISSViewController: CLLocationManagerDelegate {
     }
     
     // to start location manager
-    func fetchLocationManager() {
+    func startUpdatingLocationManager() {
         locationManager.requestAlwaysAuthorization()
         locationManager.requestWhenInUseAuthorization()
         
@@ -51,7 +51,7 @@ extension ISSViewController: CLLocationManagerDelegate {
         if CLLocationManager.locationServicesEnabled() {
             switch CLLocationManager.authorizationStatus() {
             case .authorizedAlways, .authorizedWhenInUse:
-                fetchLocationManager()
+                startUpdatingLocationManager()
             default:
                 break
             }

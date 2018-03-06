@@ -13,7 +13,7 @@ struct ISSPassResponse: Decodable {
     var response: [ISSPass]?
 }
 
-struct ISSPass: Decodable{
+struct ISSPass: Decodable {
     var duration: Int?
     var risetime: Int?
 }

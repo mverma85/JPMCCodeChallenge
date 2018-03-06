@@ -1,5 +1,5 @@
 //
-//  MFOperation.swift
+//  ISSOperation.swift
 //  JPMCCodeChallenge
 //
 //  Created by MANOJ on 06/03/18.
@@ -9,12 +9,12 @@
 import Foundation
 
 /**
- The subclass of `NSOperation` from which all other operations should be derived.
+ The subclass of `Operation` from which all other operations should be derived.
  This class adds Conditions, which allow the operation to define
  extended readiness requirements
  */
 
-class MFOperation: Operation {
+class ISSOperation: Operation {
     fileprivate var _executing: Bool = false
     override var isExecuting: Bool {
         get {
@@ -55,13 +55,13 @@ class MFOperation: Operation {
         errors.append(error)
     }
     
-    fileprivate(set) var conditions = [MFOperation]()
+    fileprivate(set) var conditions = [ISSOperation]()
     
-    func addCondition(_ condition: MFOperation) {
+    func addCondition(_ condition: ISSOperation) {
         conditions.append(condition)
     }
     
-    func removeCondition(_ condition: MFOperation) {
+    func removeCondition(_ condition: ISSOperation) {
         if let index = conditions.index(of: condition) {
             conditions.remove(at: index)
         }

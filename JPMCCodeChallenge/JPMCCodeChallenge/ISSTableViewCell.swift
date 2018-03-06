@@ -23,10 +23,7 @@ class ISSTableViewCell: UITableViewCell {
         durationLabel.text = "\(durationString): \(issPass.duration ?? 0) \(secondsString)"
         if let risetime = issPass.risetime {
             let date = Date(timeIntervalSince1970: Double(risetime))
-            let dateFormatter = DateFormatter()
-            dateFormatter.dateFormat = "dd-MMM-yyyy HH:mm:ss"
-            dateFormatter.timeZone = TimeZone.current
-            riseTimeLabel.text = "\(riseTimeString): \(dateFormatter.string(from: date))"
+            riseTimeLabel.text = "\(riseTimeString): \(Utilities.stringFromDate(date))"
         }
     }
 }
