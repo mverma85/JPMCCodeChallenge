@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF04EBE7204EC1B60006501E /* ISSViewController+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04EBE6204EC1B60006501E /* ISSViewController+Data.swift */; };
 		AF04EBE9204EC3140006501E /* GetISSPassOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04EBE8204EC3140006501E /* GetISSPassOperation.swift */; };
 		AF04EBEC204EC4000006501E /* ISSOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04EBEB204EC3FF0006501E /* ISSOperation.swift */; };
-		AF04EBF2204ECA410006501E /* ISSViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04EBF1204ECA410006501E /* ISSViewController+TableView.swift */; };
-		AF04EBFF204ECF820006501E /* ISSViewController+LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04EBFE204ECF820006501E /* ISSViewController+LocationManager.swift */; };
 		AF422CB7204EB50300F0035D /* BusinessLayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF422CB6204EB50300F0035D /* BusinessLayerManager.swift */; };
 		AF422CB9204EB59900F0035D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF422CB8204EB59900F0035D /* CoreLocation.framework */; };
 		AF422CBF204EBAD800F0035D /* ISSPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF422CBE204EBAD800F0035D /* ISSPass.swift */; };
 		AF67FCCE204E8C6900F90B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67FCCD204E8C6900F90B52 /* AppDelegate.swift */; };
-		AF67FCD0204E8C6900F90B52 /* ISSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67FCCF204E8C6900F90B52 /* ISSViewController.swift */; };
 		AF67FCD3204E8C6900F90B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF67FCD1204E8C6900F90B52 /* Main.storyboard */; };
 		AF67FCD6204E8C6900F90B52 /* JPMCCodeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF67FCD4204E8C6900F90B52 /* JPMCCodeChallenge.xcdatamodeld */; };
 		AF67FCD8204E8C6900F90B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF67FCD7204E8C6900F90B52 /* Assets.xcassets */; };
 		AF67FCDB204E8C6900F90B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF67FCD9204E8C6900F90B52 /* LaunchScreen.storyboard */; };
 		AF67FCE6204E8C6900F90B52 /* JPMCCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67FCE5204E8C6900F90B52 /* JPMCCodeChallengeTests.swift */; };
-		AF67FCF1204EAAD700F90B52 /* ISSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67FCF0204EAAD700F90B52 /* ISSTableViewCell.swift */; };
 		AFA64A67204F0F830092B2CF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA64A66204F0F830092B2CF /* Utilities.swift */; };
 		AFA64A69204F14130092B2CF /* ISSPassResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA64A68204F14130092B2CF /* ISSPassResponse.swift */; };
+		AFA64A77204F25380092B2CF /* ISSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA64A72204F25380092B2CF /* ISSTableViewCell.swift */; };
+		AFA64A78204F25380092B2CF /* ISSViewController+LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA64A73204F25380092B2CF /* ISSViewController+LocationManager.swift */; };
+		AFA64A79204F25380092B2CF /* ISSViewController+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA64A74204F25380092B2CF /* ISSViewController+Data.swift */; };
+		AFA64A7A204F25380092B2CF /* ISSViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA64A75204F25380092B2CF /* ISSViewController+TableView.swift */; };
+		AFA64A7B204F25380092B2CF /* ISSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA64A76204F25380092B2CF /* ISSViewController.swift */; };
 		AFBF8290204EDA9B00B9E047 /* GetISSPassOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF828F204EDA9B00B9E047 /* GetISSPassOperationTests.swift */; };
 		AFBF8292204EE3FE00B9E047 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF8291204EE3FE00B9E047 /* LocalizedStrings.swift */; };
 /* End PBXBuildFile section */
@@ -48,11 +48,8 @@
 		6B0F5D070F792B00145FA53A /* Pods_JPMCCodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPMCCodeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFF46E889B812E4698C3EFD /* Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPMCCodeChallenge-JPMCCodeChallengeTests/Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		ADC108B539183ADFEBE21948 /* Pods-JPMCCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMCCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPMCCodeChallenge/Pods-JPMCCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		AF04EBE6204EC1B60006501E /* ISSViewController+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ISSViewController+Data.swift"; sourceTree = "<group>"; };
 		AF04EBE8204EC3140006501E /* GetISSPassOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetISSPassOperation.swift; sourceTree = "<group>"; };
 		AF04EBEB204EC3FF0006501E /* ISSOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSOperation.swift; sourceTree = "<group>"; };
-		AF04EBF1204ECA410006501E /* ISSViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ISSViewController+TableView.swift"; sourceTree = "<group>"; };
-		AF04EBFE204ECF820006501E /* ISSViewController+LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ISSViewController+LocationManager.swift"; sourceTree = "<group>"; };
 		AF422CB6204EB50300F0035D /* BusinessLayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessLayerManager.swift; sourceTree = "<group>"; };
 		AF422CB8204EB59900F0035D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AF422CBB204EB59E00F0035D /* AKNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AKNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +57,6 @@
 		AF422CBE204EBAD800F0035D /* ISSPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPass.swift; sourceTree = "<group>"; };
 		AF67FCCA204E8C6900F90B52 /* JPMCCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMCCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF67FCCD204E8C6900F90B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF67FCCF204E8C6900F90B52 /* ISSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSViewController.swift; sourceTree = "<group>"; };
 		AF67FCD2204E8C6900F90B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF67FCD5204E8C6900F90B52 /* JPMCCodeChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JPMCCodeChallenge.xcdatamodel; sourceTree = "<group>"; };
 		AF67FCD7204E8C6900F90B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,9 +65,13 @@
 		AF67FCE1204E8C6900F90B52 /* JPMCCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMCCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF67FCE5204E8C6900F90B52 /* JPMCCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMCCodeChallengeTests.swift; sourceTree = "<group>"; };
 		AF67FCE7204E8C6900F90B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF67FCF0204EAAD700F90B52 /* ISSTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSTableViewCell.swift; sourceTree = "<group>"; };
 		AFA64A66204F0F830092B2CF /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		AFA64A68204F14130092B2CF /* ISSPassResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPassResponse.swift; sourceTree = "<group>"; };
+		AFA64A72204F25380092B2CF /* ISSTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSTableViewCell.swift; sourceTree = "<group>"; };
+		AFA64A73204F25380092B2CF /* ISSViewController+LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ISSViewController+LocationManager.swift"; sourceTree = "<group>"; };
+		AFA64A74204F25380092B2CF /* ISSViewController+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ISSViewController+Data.swift"; sourceTree = "<group>"; };
+		AFA64A75204F25380092B2CF /* ISSViewController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ISSViewController+TableView.swift"; sourceTree = "<group>"; };
+		AFA64A76204F25380092B2CF /* ISSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSViewController.swift; sourceTree = "<group>"; };
 		AFBF828F204EDA9B00B9E047 /* GetISSPassOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetISSPassOperationTests.swift; sourceTree = "<group>"; };
 		AFBF8291204EE3FE00B9E047 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
 		FA3848916F249847608B08D9 /* Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPMCCodeChallenge-JPMCCodeChallengeTests/Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,16 +144,11 @@
 		AF67FCCC204E8C6900F90B52 /* JPMCCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				AFA64A71204F25380092B2CF /* PresentationLayer */,
 				AF422CB5204EB4D700F0035D /* BusinessLayer */,
 				AF67FCCD204E8C6900F90B52 /* AppDelegate.swift */,
-				AF67FCCF204E8C6900F90B52 /* ISSViewController.swift */,
-				AF04EBF1204ECA410006501E /* ISSViewController+TableView.swift */,
-				AF04EBE6204EC1B60006501E /* ISSViewController+Data.swift */,
-				AF04EBFE204ECF820006501E /* ISSViewController+LocationManager.swift */,
-				AF67FCF0204EAAD700F90B52 /* ISSTableViewCell.swift */,
 				AFBF8291204EE3FE00B9E047 /* LocalizedStrings.swift */,
 				AFA64A66204F0F830092B2CF /* Utilities.swift */,
-				AF67FCD1204E8C6900F90B52 /* Main.storyboard */,
 				AF67FCD7204E8C6900F90B52 /* Assets.xcassets */,
 				AF67FCD9204E8C6900F90B52 /* LaunchScreen.storyboard */,
 				AF67FCDC204E8C6900F90B52 /* Info.plist */,
@@ -170,6 +165,19 @@
 				AF67FCE7204E8C6900F90B52 /* Info.plist */,
 			);
 			path = JPMCCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		AFA64A71204F25380092B2CF /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AFA64A72204F25380092B2CF /* ISSTableViewCell.swift */,
+				AFA64A73204F25380092B2CF /* ISSViewController+LocationManager.swift */,
+				AFA64A74204F25380092B2CF /* ISSViewController+Data.swift */,
+				AFA64A75204F25380092B2CF /* ISSViewController+TableView.swift */,
+				AFA64A76204F25380092B2CF /* ISSViewController.swift */,
+				AF67FCD1204E8C6900F90B52 /* Main.storyboard */,
+			);
+			path = PresentationLayer;
 			sourceTree = "<group>";
 		};
 		FC8E2E51228C4C593D551AAC /* Pods */ = {
@@ -289,19 +297,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF422CBF204EBAD800F0035D /* ISSPass.swift in Sources */,
+				AFA64A77204F25380092B2CF /* ISSTableViewCell.swift in Sources */,
+				AFA64A7A204F25380092B2CF /* ISSViewController+TableView.swift in Sources */,
+				AFA64A79204F25380092B2CF /* ISSViewController+Data.swift in Sources */,
 				AF67FCD6204E8C6900F90B52 /* JPMCCodeChallenge.xcdatamodeld in Sources */,
 				AF422CB7204EB50300F0035D /* BusinessLayerManager.swift in Sources */,
+				AFA64A78204F25380092B2CF /* ISSViewController+LocationManager.swift in Sources */,
 				AF04EBE9204EC3140006501E /* GetISSPassOperation.swift in Sources */,
 				AFA64A67204F0F830092B2CF /* Utilities.swift in Sources */,
-				AF04EBFF204ECF820006501E /* ISSViewController+LocationManager.swift in Sources */,
-				AF67FCD0204E8C6900F90B52 /* ISSViewController.swift in Sources */,
 				AFA64A69204F14130092B2CF /* ISSPassResponse.swift in Sources */,
 				AF67FCCE204E8C6900F90B52 /* AppDelegate.swift in Sources */,
-				AF67FCF1204EAAD700F90B52 /* ISSTableViewCell.swift in Sources */,
 				AFBF8292204EE3FE00B9E047 /* LocalizedStrings.swift in Sources */,
-				AF04EBF2204ECA410006501E /* ISSViewController+TableView.swift in Sources */,
+				AFA64A7B204F25380092B2CF /* ISSViewController.swift in Sources */,
 				AF04EBEC204EC4000006501E /* ISSOperation.swift in Sources */,
-				AF04EBE7204EC1B60006501E /* ISSViewController+Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
