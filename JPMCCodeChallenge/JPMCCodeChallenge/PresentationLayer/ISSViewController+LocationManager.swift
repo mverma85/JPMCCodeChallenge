@@ -18,6 +18,7 @@ extension ISSViewController: CLLocationManagerDelegate {
         if CLLocationManager.locationServicesEnabled() {
             switch CLLocationManager.authorizationStatus() {
             case .notDetermined:
+                locationManager.requestAlwaysAuthorization()
                 locationManager.requestWhenInUseAuthorization()
             case .restricted, .denied:
                 self.showError(locationServicesDisabled)
@@ -33,11 +34,7 @@ extension ISSViewController: CLLocationManagerDelegate {
      to start location manager
      */
     func startUpdatingLocationManager() {
-        locationManager.requestAlwaysAuthorization()
-        locationManager.requestWhenInUseAuthorization()
-        
         if CLLocationManager.locationServicesEnabled() {
-            locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
         }

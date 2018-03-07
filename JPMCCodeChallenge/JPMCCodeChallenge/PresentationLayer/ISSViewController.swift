@@ -21,6 +21,7 @@ class ISSViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        locationManager.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 

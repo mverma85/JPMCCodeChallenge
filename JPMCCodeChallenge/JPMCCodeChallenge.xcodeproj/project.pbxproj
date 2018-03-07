@@ -40,20 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D1811A8457AEA3DAF29B456 /* Pods-JPMCCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMCCodeChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPMCCodeChallengeTests/Pods-JPMCCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3BB03407478D278C9F68FDB3 /* Pods_JPMCCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPMCCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42B4952B2B8DC9D42BEF02F9 /* Pods_JPMCCodeChallenge_JPMCCodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPMCCodeChallenge_JPMCCodeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47536AB1F6A46275C3AF2A59 /* Pods-JPMCCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMCCodeChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPMCCodeChallengeTests/Pods-JPMCCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
-		5CF5AEC4A8429AEC9B150A20 /* Pods-JPMCCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMCCodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPMCCodeChallenge/Pods-JPMCCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		6B0F5D070F792B00145FA53A /* Pods_JPMCCodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPMCCodeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FFF46E889B812E4698C3EFD /* Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPMCCodeChallenge-JPMCCodeChallengeTests/Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
-		ADC108B539183ADFEBE21948 /* Pods-JPMCCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMCCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPMCCodeChallenge/Pods-JPMCCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		AF04EBE8204EC3140006501E /* GetISSPassOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetISSPassOperation.swift; sourceTree = "<group>"; };
 		AF04EBEB204EC3FF0006501E /* ISSOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSOperation.swift; sourceTree = "<group>"; };
 		AF422CB6204EB50300F0035D /* BusinessLayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessLayerManager.swift; sourceTree = "<group>"; };
 		AF422CB8204EB59900F0035D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		AF422CBB204EB59E00F0035D /* AKNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AKNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF422CBD204EB6C400F0035D /* Pods_JPMCCodeChallenge_JPMCCodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_JPMCCodeChallenge_JPMCCodeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF422CBE204EBAD800F0035D /* ISSPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPass.swift; sourceTree = "<group>"; };
 		AF67FCCA204E8C6900F90B52 /* JPMCCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMCCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF67FCCD204E8C6900F90B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +64,6 @@
 		AFA64A76204F25380092B2CF /* ISSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSViewController.swift; sourceTree = "<group>"; };
 		AFBF828F204EDA9B00B9E047 /* GetISSPassOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetISSPassOperationTests.swift; sourceTree = "<group>"; };
 		AFBF8291204EE3FE00B9E047 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
-		FA3848916F249847608B08D9 /* Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPMCCodeChallenge-JPMCCodeChallengeTests/Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +88,7 @@
 		956F7E3A511987A18C56BD99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF422CBD204EB6C400F0035D /* Pods_JPMCCodeChallenge_JPMCCodeChallengeTests.framework */,
-				AF422CBB204EB59E00F0035D /* AKNetworking.framework */,
 				AF422CB8204EB59900F0035D /* CoreLocation.framework */,
-				3BB03407478D278C9F68FDB3 /* Pods_JPMCCodeChallenge.framework */,
-				6B0F5D070F792B00145FA53A /* Pods_JPMCCodeChallengeTests.framework */,
-				42B4952B2B8DC9D42BEF02F9 /* Pods_JPMCCodeChallenge_JPMCCodeChallengeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,7 +111,6 @@
 				AF67FCCC204E8C6900F90B52 /* JPMCCodeChallenge */,
 				AF67FCE4204E8C6900F90B52 /* JPMCCodeChallengeTests */,
 				AF67FCCB204E8C6900F90B52 /* Products */,
-				FC8E2E51228C4C593D551AAC /* Pods */,
 				956F7E3A511987A18C56BD99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -178,19 +161,6 @@
 				AF67FCD1204E8C6900F90B52 /* Main.storyboard */,
 			);
 			path = PresentationLayer;
-			sourceTree = "<group>";
-		};
-		FC8E2E51228C4C593D551AAC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5CF5AEC4A8429AEC9B150A20 /* Pods-JPMCCodeChallenge.debug.xcconfig */,
-				ADC108B539183ADFEBE21948 /* Pods-JPMCCodeChallenge.release.xcconfig */,
-				2D1811A8457AEA3DAF29B456 /* Pods-JPMCCodeChallengeTests.debug.xcconfig */,
-				47536AB1F6A46275C3AF2A59 /* Pods-JPMCCodeChallengeTests.release.xcconfig */,
-				FA3848916F249847608B08D9 /* Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.debug.xcconfig */,
-				6FFF46E889B812E4698C3EFD /* Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,16 +431,17 @@
 		};
 		AF67FCEB204E8C6900F90B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CF5AEC4A8429AEC9B150A20 /* Pods-JPMCCodeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				DEVELOPMENT_TEAM = 6JY42744FE;
 				INFOPLIST_FILE = JPMCCodeChallenge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.jpmc.JPMCCodeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.jpmc.JPMCCodeChallenge123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -478,16 +449,17 @@
 		};
 		AF67FCEC204E8C6900F90B52 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC108B539183ADFEBE21948 /* Pods-JPMCCodeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				DEVELOPMENT_TEAM = 6JY42744FE;
 				INFOPLIST_FILE = JPMCCodeChallenge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.jpmc.JPMCCodeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.jpmc.JPMCCodeChallenge123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,7 +467,6 @@
 		};
 		AF67FCEE204E8C6900F90B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3848916F249847608B08D9 /* Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,7 +483,6 @@
 		};
 		AF67FCEF204E8C6900F90B52 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FFF46E889B812E4698C3EFD /* Pods-JPMCCodeChallenge-JPMCCodeChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
